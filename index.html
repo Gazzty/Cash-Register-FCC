@@ -7,7 +7,57 @@
     <title>Cash Register</title>
 </head>
 <body>
-    
+    <div id="main-container">
+        <img id="logo" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="">
+        <h1 id="title">Cash Register Project</h1>
+        <span id="change-due"></span>
+        <form action="#">
+            <div class="form-container">
+                <p>Enter cash from customer</p>
+                <input type="number" id="cash">
+                <button id="purchase-btn">Purchase</button>
+            </div>
+        </form>
+
+        <div class="cashier-container">
+            <div id="price-bg">
+                <div id="price-screen">
+                    <p id="price"></p>
+                </div>
+            </div>
+            <div id="price-cashier-union"></div>
+            <div id="cashier-body">
+                <div id="cashier-buttons-container">
+                    <div class="cashier-button"></div>
+                    <div class="cashier-button"></div>
+                    <div class="cashier-button"></div>
+                    <div class="cashier-button"></div>
+                    <div class="cashier-button"></div>
+                    <div class="cashier-button"></div>
+                    <div class="cashier-button"></div>
+                    <div class="cashier-button"></div>
+                    <div class="cashier-button"></div>
+                </div>
+                <div id="change-container">
+                    <p class="change"><b>Change in drawer:</b></p>
+                    <p class="change">Pennies: $</p>
+                    <p class="change">Nickels: $</p>
+                    <p class="change">Dimes: $</p>
+                    <p class="change">Quarters: $</p>
+                    <p class="change">Ones: $</p>
+                    <p class="change">Fives: $</p>
+                    <p class="change">Tens: $</p>
+                    <p class="change">Twenties: $</p>
+                    <p class="change">Hundreds: $</p>
+                </div>
+            </div>
+            <div id="cashier-drawer-container">
+                <div id="cashier-drawer">
+                    <div id="drawer-button"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>

@@ -1,0 +1,141 @@
+:root {
+    --margin-top: 20px;
+}
+
+body {
+    background-color: #324376;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-container {
+    margin-top: var(--margin-top);
+    display: flex;
+    width: 100vw;
+    height: 100vh - var(--margin-top);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    width: 250px;
+}
+
+#title {
+    font-size: 2rem;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.form-container>p {
+    margin: 0;
+}
+#cash{
+    font-size: 1rem;
+    text-indent: 5px;
+}
+
+.form-container>#purchase-btn {
+    margin-top: 5px;
+    width: fit-content;
+    background-color: #F5DD90;
+    font-size: 1.5rem;
+    border: 3px solid;
+    border-top-color: #F5DD90;
+    border-right-color: #F68E5F;
+    border-bottom-color: #F68E5F;
+    border-left-color: #F5DD90;
+}
+
+#cashier-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#price-bg{
+    margin-right: 30px;
+    margin-top: 35px;
+    margin-left: 20px;
+    background-color: #B1BFE7;
+    width: 175px;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#price-screen{
+    background-color: black;
+    width: 85%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#price-cashier-union{
+    background-color: #B1BFE7;
+    height: 20px;
+    width: 30px;
+    margin-left: 40px;
+}
+
+#cashier-body{
+    background-color: #B1BFE7;
+    height: 225px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+#cashier-buttons-container{
+    display: grid;
+    gap: 4px;
+    grid-template-columns: repeat(3, 1fr);
+    width: 50px;
+    height: 50px;
+    margin: 20px 0 0 20px;
+}
+.cashier-button{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+#change-container{
+    background-color: white;
+    padding: 0;
+    margin: 20px 0 0 20px;
+    height: fit-content;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    text-indent: 5px;
+}
+.change{
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+#cashier-drawer-container{
+    width: 250px;
+    background-color: #B1BFE7;
+    margin-top: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#drawer-button{
+    background-color: #324376;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+}
