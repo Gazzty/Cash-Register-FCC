@@ -23,7 +23,12 @@ body {
 }
 
 #title {
-    font-size: 2rem;
+    font-size: 1.7rem;
+}
+
+#change-due{
+    font-size: 1.1rem;
+    margin-bottom: 10px;
 }
 
 .form-container {
@@ -52,8 +57,16 @@ body {
     border-bottom-color: #F68E5F;
     border-left-color: #F5DD90;
 }
+#purchase-btn:active{
+    background-color: #C4AC5D;
+    border-top-color: #C4AC5D;
+    border-right-color: #F68E5F;
+    border-bottom-color: #F68E5F;
+    border-left-color: #C4AC5D;
+}
 
 #cashier-container{
+
     display: flex;
     flex-direction: column;
 }
@@ -119,6 +132,13 @@ body {
     text-indent: 5px;
 }
 .change{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+.change > *{
     color: black;
     margin: 0;
     padding: 0;
